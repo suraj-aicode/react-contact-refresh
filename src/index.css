@@ -8,35 +8,44 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    /* Waha Mobility Color Palette */
+    --background: 254 100% 99%; /* #fffaff */
+    --foreground: 191 45% 18%; /* #0e2a2f */
 
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card: 139 100% 97%; /* #f2f4f3 */
+    --card-foreground: 210 26% 11%; /* #0e2a2f */
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover: 139 100% 97%; /* #f2f4f3 */
+    --popover-foreground: 210 26% 11%; /* #0e2a2f */
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 166 84% 31%; /* #1EC87F */
+    --primary-foreground: 254 100% 99%; /* #fffaff */
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 191 45% 18%; /* #0e2a2f */
+    --secondary-foreground: 139 100% 97%; /* #f2f4f3 */
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 191 45% 25%; /* #1a4a53 */
+    --muted-foreground: 0 0% 92%; /* #ebebeb */
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 166 84% 31%; /* #1EC87F */
+    --accent-foreground: 254 100% 99%; /* #fffaff */
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 210 26% 11%; /* #0e2a2f */
+    --input: 132 22% 87%; /* #d8f3dc */
+    --ring: 166 84% 31%; /* #1EC87F */
 
     --radius: 0.5rem;
+    
+    /* Custom gradients and colors */
+    --gradient-main: linear-gradient(180deg, hsl(254 100% 99%), hsl(191 45% 25%), hsl(191 45% 18%), hsl(191 54% 12%));
+    --gradient-contact-info: linear-gradient(135deg, hsl(191 45% 18%) 0%, hsl(191 45% 25%) 50%, hsl(191 54% 12%) 100%);
+    --contact-dark: 191 54% 12%; /* #081c1f */
+    --contact-light: 132 28% 91%; /* #cfedd4 */
+    --footer-bg: 191 54% 12%; /* #081c1f */
+    --footer-accent: 191 45% 25%; /* #1a4a53 */
 
     --sidebar-background: 0 0% 98%;
 
